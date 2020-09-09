@@ -7,7 +7,6 @@
   box-sizing: border-box; /* Bokse har altid den størrelse man giver uanset om der tilføjes margen, padding mv. */
   font-family: $headerFont;
   color: $mainBlack;
-  transition: ease all .5s;
 }
 
 /* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
@@ -61,6 +60,22 @@ img {
   height: 45px;
   border: none;
   margin: 0 10px;
+}
+
+
+
+
+.BorderWidth{
+  border-width:4px!important;
+}
+
+.Purple{
+  border-color:$mainPurple!important;
+  color:$mainPurple!important;
+}
+
+.Astra{
+  background: $gradientVertical;
 }
 
 
