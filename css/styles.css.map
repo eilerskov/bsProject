@@ -1,1 +1,1 @@
-{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,KACE,cAAe","file":"styles.css","sourcesContent":["body {\n  background: red;\n}\n"]}
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,GACE,6BAAgC,CAGlC,EACE,gCAAoC","file":"styles.css","sourcesContent":["h2 {\r\n  font-family: \"Apple Color Emoji\";\r\n}\r\n\r\np {\r\n  font-family: 'Open Sans', sans-serif;\r\n}"]}
