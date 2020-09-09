@@ -1,1 +1,1 @@
-{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,KACE,eAAgB","file":"styles.css","sourcesContent":["body {\r\n  background: blue;\r\n}\r\n"]}
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,KACE,cAAe","file":"styles.css","sourcesContent":["body {\n  background: red;\n}\n"]}
