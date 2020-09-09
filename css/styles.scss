@@ -7,12 +7,13 @@
   box-sizing: border-box; /* Bokse har altid den størrelse man giver uanset om der tilføjes margen, padding mv. */
   font-family: $headerFont;
   color: $mainBlack;
+  transition: ease all .5s;
 }
 
 /* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
 
 body {
-  margin: 0; /* Ingen kanter i siden af browser */
+  margin: 0 !important; /* Ingen kanter i siden af browser */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,6 +46,8 @@ img {
 }
 
 
+
+
 .borderWrap{;
   width: 250px;
   height: 60px;
@@ -60,17 +63,4 @@ img {
   margin: 0 10px;
 }
 
-.backgroundContainer{
-  background-image: url(../images/bridges_s_md.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 
-    .gradienBG{
-      background: $gradientHorizen;
-
-
-    }
-
-}
