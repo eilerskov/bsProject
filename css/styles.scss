@@ -45,7 +45,7 @@ img {
 
 
 .borderWrap{;
-  width: 200px;
+  width: 250px;
   height: 60px;
   background: $gradientHorizen;
 }
@@ -53,8 +53,23 @@ img {
 .ctaBtn{
   background: $mainBlack;
   color: white;
-  width: 200px;
+  width: 250px;
   height: 45px;
   border: none;
   margin: 0 10px;
+}
+
+.backgroundContainer{
+  background-image: url(../images/bridges_s_md.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+    .gradienBG{
+      background: $gradientHorizen;
+
+
+    }
+
 }
