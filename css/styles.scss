@@ -77,3 +77,16 @@ img {
 .socials{
   max-width: 50px;
 }
+
+.BorderWidth{
+  border-width:4px!important;
+}
+
+.Purple{
+  border-color:$mainPurple!important;
+  color:$mainPurple!important;
+}
+
+.Astra{
+  background: $gradientVertical;
+}
