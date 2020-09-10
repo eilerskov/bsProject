@@ -7,6 +7,7 @@
   box-sizing: border-box; /* Bokse har altid den størrelse man giver uanset om der tilføjes margen, padding mv. */
   font-family: $headerFont;
   color: $mainBlack;
+  transition: ease all .5s;
 }
 
 /* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
@@ -62,20 +63,17 @@ img {
   margin: 0 10px;
 }
 
-
-
-
-.BorderWidth{
-  border-width:4px!important;
+.bgGradient{
+  background: $gradientHorizen;
+  width: 100%;
+  opacity: 0.85;
 }
 
-.Purple{
-  border-color:$mainPurple!important;
-  color:$mainPurple!important;
+.btn {
+  background: $subscribe;
+  width: 165px;
 }
 
-.Astra{
-  background: $gradientVertical;
+.socials{
+  max-width: 50px;
 }
-
-
