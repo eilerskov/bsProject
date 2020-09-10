@@ -63,4 +63,17 @@ img {
   margin: 0 10px;
 }
 
+.bgGradient{
+  background: $gradientHorizen;
+  width: 100%;
+  opacity: 0.85;
+}
 
+.btn {
+  background: $subscribe;
+  width: 165px;
+}
+
+.socials{
+  max-width: 50px;
+}
