@@ -49,7 +49,7 @@ img {
 
 
 
-.borderWrap{;
+.borderWrap{
   width: 250px;
   height: 60px;
   background: $gradientHorizen;
@@ -58,6 +58,21 @@ img {
 .ctaBtn{
   background: $mainBlack;
   color: white;
+  width: 250px;
+  height: 45px;
+  border: none;
+  margin: 0 10px;
+}
+
+.AstraBorderWrap{
+  width: 250px;
+  height: 60px;
+  background:transparent;
+}
+
+.AstraBtn{
+  background:white;
+  color: $mainPurple;
   width: 250px;
   height: 45px;
   border: none;
